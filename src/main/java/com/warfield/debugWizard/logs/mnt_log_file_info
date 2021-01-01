@@ -1,0 +1,64 @@
+ise-psc 15M /opt/CSCOcpm/logs/ise-psc.log 40M /opt/CSCOcpm/logs/ise-psc.log.2020-05-29.1 61M /opt/CSCOcpm/logs/ise-psc.log.2020-05-30.1 7.4M /opt/CSCOcpm/logs/ise-psc.log.2020-05-30.2 61M /opt/CSCOcpm/logs/ise-psc.log.2020-05-31.1 344K /opt/CSCOcpm/logs/ise-psc.log.2020-05-31.2 183M total
+connector 0 /opt/sse/logs/connector.log 4.0K /opt/sse/logs/connector.log.2020-05-30.gz 4.0K total
+prrt-management 4.0K /opt/CSCOcpm/logs/prrt-management.log 36K /opt/CSCOcpm/logs/prrt-management.log.2020-05-29.1 96K /opt/CSCOcpm/logs/prrt-management.log.2020-05-30.1 4.0K /opt/CSCOcpm/logs/prrt-management.log.2020-05-31.1 140K total
+edf 0 /opt/CSCOcpm/logs/edf.log 0 total
+prrt-server 180K /opt/CSCOcpm/logs/prrt-server.log 180K total
+profiler 32K /opt/CSCOcpm/logs/profiler.log 196K /opt/CSCOcpm/logs/profiler.log.2020-05-29.1 312K /opt/CSCOcpm/logs/profiler.log.2020-05-30.1 108K /opt/CSCOcpm/logs/profiler.log.2020-05-31.1 648K total
+guest 8.0K /opt/CSCOcpm/logs/guest.log 68K /opt/CSCOcpm/logs/guest.log.2020-05-29.1 92K /opt/CSCOcpm/logs/guest.log.2020-05-30.1 28K /opt/CSCOcpm/logs/guest.log.2020-05-31.1 196K total
+tracking 84K /opt/CSCOcpm/logs/tracking.log 256K /opt/CSCOcpm/logs/tracking.log.2020-05-29.1 432K /opt/CSCOcpm/logs/tracking.log.2020-05-30.1 332K /opt/CSCOcpm/logs/tracking.log.2020-05-31.1 1.1M total
+collector 24K /opt/CSCOcpm/logs/collector.log 8.0K /opt/CSCOcpm/logs/collector.log.2020-05-30.gz 4.0K /opt/CSCOcpm/logs/collector.log.2020-05-31.gz 72K /opt/CSCOcpm/logs/collector.log.2020-06-01 108K total
+netflowreceiver 0 total
+report 24K /opt/CSCOcpm/logs/report.log 256K /opt/CSCOcpm/logs/report.log.2020-05-29.1 280K total
+deployment 3.2M /opt/CSCOcpm/logs/deployment.log 6.2M /opt/CSCOcpm/logs/deployment.log.2020-05-29.1 14M /opt/CSCOcpm/logs/deployment.log.2020-05-30.1 15M /opt/CSCOcpm/logs/deployment.log.2020-05-31.1 38M total
+monit 80K /opt/CSCOcpm/logs/monit.log 80K total
+crypto 0 total
+iseLocalStore 808K /opt/CSCOcpm/logs/localStore/iseLocalStore.log 3.4M /opt/CSCOcpm/logs/localStore/iseLocalStore.log.2020-05-31-00-00-00-491 4.2M total
+ad_agent 16K /opt/CSCOcpm/logs/ad_agent.log 16K total
+catalina 0 /opt/CSCOcpm/appsrv/apache-tomcat/logs/catalina.log 44K /opt/CSCOcpm/appsrv/apache-tomcat/logs/catalina.log.2020-05-30.gz 80K /opt/CSCOcpm/appsrv/apache-tomcat/logs/catalina.log.2020-05-31.gz 4.0K /opt/CSCOcpm/appsrv/apache-tomcat/logs/catalina.log.2020-06-01.gz 8.0K /opt/CSCOcpm/appsrv/apache-tomcat/logs/catalina.out 60K /opt/CSCOcpm/appsrv/apache-tomcat/logs/catalina.out.2020-05-30.gz 112K /opt/CSCOcpm/appsrv/apache-tomcat/logs/catalina.out.2020-05-31.gz 8.0K /opt/CSCOcpm/appsrv/apache-tomcat/logs/catalina.out.2020-06-01 316K total
+replication 916K /opt/CSCOcpm/logs/replication.log 2.4M /opt/CSCOcpm/logs/replication.log.2020-05-29.1 4.3M /opt/CSCOcpm/logs/replication.log.2020-05-30.1 4.1M /opt/CSCOcpm/logs/replication.log.2020-05-31.1 12M total
+pxgrid 32K /opt/xgrid/log/pxgrid-install.log 9.4M /opt/xgrid/log/pxgrid-server.log 21M /opt/xgrid/log/pxgrid-server.log.2020-05-29.1 9.8M /opt/xgrid/log/pxgrid-server.log.2020-05-29.2 21M /opt/xgrid/log/pxgrid-server.log.2020-05-30.1 21M /opt/xgrid/log/pxgrid-server.log.2020-05-30.2 3.5M /opt/xgrid/log/pxgrid-server.log.2020-05-30.3 21M /opt/xgrid/log/pxgrid-server.log.2020-05-31.1 21M /opt/xgrid/log/pxgrid-server.log.2020-05-31.2 3.2M /opt/xgrid/log/pxgrid-server.log.2020-05-31.3 126M total
+caservice 308K /opt/CSCOcpm/logs/caservice_bootstrap.log 184K /opt/CSCOcpm/logs/caservice.log 576K /opt/CSCOcpm/logs/caservice.log.2020-05-29.1 832K /opt/CSCOcpm/logs/caservice.log.2020-05-30.1 828K /opt/CSCOcpm/logs/caservice.log.2020-05-31.1 4.0K /opt/CSCOcpm/logs/caservice-misc.log 2.7M total
+ocsp 4.0K /opt/CSCOcpm/logs/ocsp.log 4.0K total
+passiveid 0 /opt/CSCOcpm/logs/passiveid-agent.log 0 /opt/CSCOcpm/logs/passiveid-api.log 0 /opt/CSCOcpm/logs/passiveid-endpoint.log 4.0K /opt/CSCOcpm/logs/passiveid-mgmt.log 0 /opt/CSCOcpm/logs/passiveid-span.log 0 /opt/CSCOcpm/logs/passiveid-syslog.log 0 /opt/CSCOcpm/logs/passiveid-wmi.log 4.0K total
+console 8.0K /opt/CSCOcpm/logs/console.log 140K /opt/CSCOcpm/logs/console.log.2020-05-29.1 220K /opt/CSCOcpm/logs/console.log.2020-05-30.1 8.0K /opt/CSCOcpm/logs/console.log.2020-05-31.1 376K total
+diagnostics 8.0K /opt/CSCOcpm/logs/diagnostics.log 4.0K /opt/CSCOcpm/logs/diagnostics.log.1.gz 12K total
+db 4.0K /opt/CSCOcpm/logs/dbalert.log 0 /opt/CSCOcpm/logs/dbconn.log 4.0K /opt/CSCOcpm/logs/dblistener.log 8.0K total
+redis 0 /opt/CSCOcpm/logs/redis.log 4.0K /opt/CSCOcpm/logs/redis.log.2020-05-30.gz 4.0K /opt/CSCOcpm/logs/redis.log.2020-05-31 8.0K total
+EP 0 total
+iseupgrade 0 total
+localhost 0 total
+manager 0 total
+sxp 0 total
+docker 0 total
+core-engine 0 total
+irf 140K /opt/CSCOcpm/logs/irf.log 84K /opt/CSCOcpm/logs/irf.log.2020-05-29.1 224K total
+varuntime 4.0K /opt/CSCOcpm/logs/varuntime.log 12K /opt/CSCOcpm/logs/varuntime.log.2020-05-29.1 24K /opt/CSCOcpm/logs/varuntime.log.2020-05-30.1 12K /opt/CSCOcpm/logs/varuntime.log.2020-05-31.1 52K total
+vaservice 0 total
+vaaggregation 84K /opt/CSCOcpm/logs/vaaggregation.log 168K /opt/CSCOcpm/logs/vaaggregation.log.2020-05-29.1 284K /opt/CSCOcpm/logs/vaaggregation.log.2020-05-30.1 292K /opt/CSCOcpm/logs/vaaggregation.log.2020-05-31.1 828K total
+counters 0 /opt/CSCOcpm/logs/counters.log 0 total
+lsd 28K /opt/CSCOcpm/logs//lsd.log 92K /opt/CSCOcpm/logs//lsd.log.2020-05-29.1 140K /opt/CSCOcpm/logs//lsd.log.2020-05-30.1 104K /opt/CSCOcpm/logs//lsd.log.2020-05-31.1 364K total
+sphub 0 total
+upn 4.0K /opt/CSCOcpm/logs//upn.log 4.0K /opt/CSCOcpm/logs//upn.log.2020-05-29.1 8.0K total
+ADE 3.1M /var/log/ade/ADE.log 3.1M total
+audit 7.2M /var/log/audit/audit.log 8.1M /var/log/audit/audit.log.1 8.1M /var/log/audit/audit.log.2 8.1M /var/log/audit/audit.log.3 8.1M /var/log/audit/audit.log.4 40M total
+boot 24K /var/log/boot.log 24K total
+btmp 0 /var/log/btmp 0 total
+checkstartupcfg 0 /var/log/checkstartupcfg.log 0 total
+cron 64K /var/log/cron 28K /var/log/cron.1.gz 32K /var/log/cron.2.gz 24K /var/log/cron.3.gz 148K total
+dmesg 100K /var/log/dmesg 100K /var/log/dmesg.old 200K total
+faillog 24K /var/log/faillog 24K total
+grubby_prune_debug 4.0K /var/log/grubby_prune_debug 4.0K total
+lastlog 48K /var/log/lastlog 48K total
+maillog 28K /var/log/maillog 12K /var/log/maillog.1.gz 12K /var/log/maillog.2.gz 8.0K /var/log/maillog.3.gz 60K total
+messages 2.4M /var/log/messages 1.1M /var/log/messages.1.gz 1.1M /var/log/messages.2.gz 568K /var/log/messages.3.gz 5.0M total
+pbis-open-install 48K /var/log/pbis-open-install.log 48K total
+journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-0000000000203324-0005a6f89021ef85.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-0000000000207fc3-0005a6f909bbb0f7.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-000000000020cc69-0005a6f9836fe076.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-000000000021190b-0005a6f9fc96de3e.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-0000000000216596-0005a6fa76e3a7a2.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-000000000021b23d-0005a6faf0843a4b.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-000000000021feea-0005a6fb6d1fec35.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-0000000000224be5-0005a6fbef18397a.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-00000000002298a7-0005a6fc7384ca2d.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-000000000022e556-0005a6fced9d44e2.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-00000000002331fd-0005a6fd671faf67.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-0000000000237ead-0005a6fde03d6892.journal 16M /var/log/journal/2f4926944070458b8c85a166ad332589/system@12e36ecc0db84bb4b06fa5d912dd74ed-000000000023cb37-0005a6fe5a4e29c6.journal 8.1M /var/log/journal/2f4926944070458b8c85a166ad332589/system.journal 204M total
+rhsm 4.0K /var/log/rhsm/rhsmcertd.log 4.0K /var/log/rhsm/rhsmcertd.log.1 0 /var/log/rhsm/rhsm.log 8.0K total
+sar 308K /var/log/sa/sar29 612K /var/log/sa/sar30 612K /var/log/sa/sar31 1.5M total
+secure 1.9M /var/log/secure 640K /var/log/secure.1.gz 712K /var/log/secure.2.gz 552K /var/log/secure.3.gz 3.8M total
+spooler 0 /var/log/spooler 0 total
+startupcfg_upgrade 4.0K /var/log/startupcfg_upgrade.log 4.0K total
+tallylog 8.0K /var/log/tallylog 8.0K total
+tuned 8.0K /var/log/tuned/tuned.log 8.0K total
+vmware 4.0K /var/log/vmware-vgauthsvc.log.0 4.0K /var/log/vmware-vmsvc.log 8.0K total
+wtmp 4.0K /var/log/wtmp 12K /var/log/wtmp.1 16K total

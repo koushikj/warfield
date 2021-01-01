@@ -1,0 +1,15 @@
+package com.warfield.debugWizard;
+
+public class DebugLogInfoMain {
+    public static void main(String[] args) {
+        DebugLogFileType[] debugLogFileTypes = DebugLogFileType.values();
+        StringBuffer fileList = new StringBuffer();
+        for (DebugLogFileType debugLogFileType: debugLogFileTypes) {
+            System.out.println(debugLogFileType.toString());
+            //System.out.println(debugLogFileType.getFileType());
+            System.out.println(debugLogFileType.getFilePath());
+            fileList.append(debugLogFileType.getFilePath()).append("/").append(debugLogFileType.toString()).append(" ");
+        }
+        System.out.println(fileList);
+    }
+}

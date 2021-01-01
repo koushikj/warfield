@@ -1,0 +1,150 @@
+package com.warfield.debugWizard;
+
+public enum DebugLogFileType {
+
+
+    ISE_PSC("ise-psc", Constants.BASE_LOG_DIR_APP, "Main ise debug log messages", Constants.APPLICATION, true),
+    SSE_LOGS("connector", "/opt/sse/logs", "Cisco support diagnostics logs", Constants.APPLICATION, true),
+    ISE_PRRT("prrt-management", Constants.BASE_LOG_DIR_APP, "Protocol Runtime policy decision request processing layer related messages", Constants.APPLICATION, true),
+    ISE_EDF("edf", Constants.BASE_LOG_DIR_APP, "Entity definition framework log messages", Constants.APPLICATION, true),
+    PRRT("prrt-server", Constants.BASE_LOG_DIR_APP, "Protocol Runtime runtime configuration, debug and customer logs messages", Constants.APPLICATION, true),
+    PROFILER("profiler", Constants.BASE_LOG_DIR_APP, "Profiler debug messages", Constants.APPLICATION, true),
+    GUEST("guest", Constants.BASE_LOG_DIR_APP, "Guest debug messages", Constants.APPLICATION, true),
+    ISE_TRACK("tracking", Constants.BASE_LOG_DIR_APP, "", Constants.APPLICATION, true),
+    // XDE("xde_Log", "/opt/CSCOcpm/logs"),     // removed per bug CSCtx20345
+    MNT_COLLECTOR("collector", Constants.BASE_LOG_DIR_APP, "Log collector log messages", Constants.APPLICATION, true),
+    MNT_DECAP("netflowreceiver", Constants.BASE_LOG_DIR_APP, "Netflow syslog messages", Constants.APPLICATION, true),
+    MNT_REPORT("report", Constants.BASE_LOG_DIR_APP, "Report log messages", Constants.APPLICATION, true),
+    DEPLOYMENT("deployment", Constants.BASE_LOG_DIR_APP, "Deployment log messages", Constants.APPLICATION, true),
+    //ENA_MNT_DB_REP("EnableMnTDBRep", "/opt/CSCOcpm/logs", "M&T UI log messages"),
+    //BOOTSTRAP("isebootstrap", "/opt/CSCOcpm/logs"),
+    MONIT("monit", Constants.BASE_LOG_DIR_APP, "Service monitoring log messages", Constants.APPLICATION, true),
+    PKI("crypto", Constants.BASE_LOG_DIR_APP, "Cryptography log messages", Constants.APPLICATION, true),
+    LOCAL_STORE("iseLocalStore", "/opt/CSCOcpm/logs/localStore", "Protocol Runtime customer log messages", Constants.APPLICATION, true),
+    CENTRIFY("ad_agent", Constants.BASE_LOG_DIR_APP, "Active Directory connector log messages", Constants.APPLICATION, true),
+    CATALINA("catalina", "/opt/CSCOcpm/appsrv/apache-tomcat/logs", "Apache/Tomcat log messages", Constants.APPLICATION, true),
+    REPLICATION("replication", Constants.BASE_LOG_DIR_APP, "Deployment replication log messages", Constants.APPLICATION, true),
+    PXGRID("pxgrid", "/opt/xgrid/log", "pxGrid log messages", Constants.APPLICATION, true),
+
+    CASERVICE("caservice", Constants.BASE_LOG_DIR_APP, "CA Service log messages", Constants.APPLICATION, true),
+    OCSP("ocsp", Constants.BASE_LOG_DIR_APP, "OCSP Responder log messages", Constants.APPLICATION, true),
+    IDENTITY_MAPPING("passiveid", Constants.BASE_LOG_DIR_APP, "PassiveID log messages", Constants.APPLICATION, true),
+    //MDM("mdm","/opt/CSCOcpm/logs","Mobile Device Management messages"),
+
+    CONSOLE("console", Constants.BASE_LOG_DIR_APP, "Constants.SYSTEM console messages", Constants.APPLICATION, true),
+    DIAGNOSTIC("diagnostics", Constants.BASE_LOG_DIR_APP, "", Constants.APPLICATION, true),
+    DB("db", Constants.BASE_LOG_DIR_APP, "DB log messages", Constants.APPLICATION, true),
+    REDIS("redis", Constants.BASE_LOG_DIR_APP, "", Constants.APPLICATION, true),
+    DEBUG_EP("EP", "/opt/CSCOcpm/logs/EPDebugs", "Debug EndPoint log messages", Constants.APPLICATION, true),
+    ISEUPGRADE("iseupgrade", Constants.BASE_LOG_DIR_APP, "", Constants.APPLICATION, true),
+    LOCALHOST("localhost", Constants.BASE_LOG_DIR_APP, "", Constants.APPLICATION, true),
+    MANAGER("manager", Constants.BASE_LOG_DIR_APP, "", Constants.APPLICATION, true),
+    SXP("sxp", "/opt/CSCOcpm/appsrv/apache-tomcat-sxp/logs", "SXP log messages", Constants.APPLICATION, true),
+    DOCKER("docker", "/opt/CSCOcpm/logs/docker/", "TC-NAC docker daemon log messages", Constants.APPLICATION, true),
+    CORE_ENGINE("core-engine", "/opt/CSCOcpm/logs/core-engine", "TC-NAC core engine log messages", Constants.APPLICATION, true),
+    IRF("irf", Constants.BASE_LOG_DIR_APP, "TC-NAC log messages", Constants.APPLICATION, true),
+    VA_RUNTIME("varuntime", Constants.BASE_LOG_DIR_APP, "Vulnerability assessment runtime log messages", Constants.APPLICATION, true),
+    VA_SERVICE("vaservice", Constants.BASE_LOG_DIR_APP, "Vulnerability assessment service log messages", Constants.APPLICATION, true),
+    VA_AGGREGATION("vaaggregation", Constants.BASE_LOG_DIR_APP, "Vulnerability assessment aggregation log messages", Constants.APPLICATION, true),
+    COUNTERS("counters", Constants.BASE_LOG_DIR_APP, "Threshold counter log messages", Constants.APPLICATION, true),
+    LSD("lsd", "/opt/CSCOcpm/logs/", "Light Session Directory log messages", Constants.APPLICATION, true),
+    SPHUB("sphub", "/opt/sp-hub/logs", "sp-hub log messages", Constants.APPLICATION, false),
+    UPN("upn", "/opt/CSCOcpm/logs/", "User Private Network messages", Constants.APPLICATION, true),
+
+    ADE("ADE", "/var/log/ade", "ADE debug log messages", Constants.SYSTEM, true),
+    audit("audit", "/var/log/audit", "Audit debug log messages", Constants.SYSTEM, false),
+    boot("boot", Constants.ROOT_DIR, "Boot debug log messages", Constants.SYSTEM, true),
+    btmp("btmp", Constants.ROOT_DIR, "Btmp debug log messages", Constants.SYSTEM, true),//not ending with log
+    checkstartupcfg("checkstartupcfg", Constants.ROOT_DIR, "Check Startup Config debug log messages", Constants.SYSTEM, true),
+    cron("cron", Constants.ROOT_DIR, "Cron debug log messages", Constants.SYSTEM, true),//not ending with log
+    dmesg("dmesg", Constants.ROOT_DIR, " Dmesgdebug log messages", Constants.SYSTEM, true),
+    faillog("faillog", Constants.ROOT_DIR, "FailLog debug log messages", Constants.SYSTEM, true),
+    grubby_prune_debug("grubby_prune_debug", Constants.ROOT_DIR, "Grubby prune debug log messages", Constants.SYSTEM, true),
+    lastlog("lastlog", Constants.ROOT_DIR, "Last log debug log messages", Constants.SYSTEM, true),
+    maillog("maillog", Constants.ROOT_DIR, "Mail log debug log messages", Constants.SYSTEM, true),
+    messages("messages", Constants.ROOT_DIR, "Messages debug log messages", Constants.SYSTEM, true),
+
+    pbis("pbis-open-install", Constants.ROOT_DIR, "Pbis debug log messages", Constants.SYSTEM, true),
+    journal("journal", "/var/log/journal/*/", "Journal debug log messages", Constants.SYSTEM, true),
+
+    rhsm("rhsm", "/var/log/rhsm", "Rhsm debug log messages", Constants.SYSTEM, true),//make sure delete handles rhsmcert
+    sar("sar", "/var/log/sa", "Sar debug log messages", Constants.SYSTEM, false),
+
+    secure("secure", Constants.ROOT_DIR, "Secure debug log messages", Constants.SYSTEM, true),
+    spooler("spooler", Constants.ROOT_DIR, "Spooler debug log messages", Constants.SYSTEM, true),
+    startupcfg_upgrade("startupcfg_upgrade", Constants.ROOT_DIR, "Startup config upgrade debug log messages", Constants.SYSTEM, true),
+    tallylog("tallylog", Constants.ROOT_DIR, "Tally log debug log messages", Constants.SYSTEM, true),
+    tuned("tuned", "/var/log/tuned", "Tuned debug log messages", Constants.SYSTEM, true),
+    vmware("vmware", Constants.ROOT_DIR, "Vmware debug log messages", Constants.SYSTEM, true),
+    wtmp("wtmp", Constants.ROOT_DIR, "wtmp debug log messages", Constants.SYSTEM, true);
+
+
+    private String fileType;
+    private String filePath;
+    private String fileDescription;
+
+    private String logCategory;
+    private boolean deletable;
+
+
+    DebugLogFileType(String fileType, String filePath) {
+        this.fileType = fileType;
+        this.filePath = filePath;
+    }
+
+
+    DebugLogFileType(String fileType, String filePath, String fileDescription, String logCategory, boolean deletable) {
+        this.fileType = fileType;
+        this.filePath = filePath;
+        this.fileDescription = fileDescription;
+        this.logCategory = logCategory;
+        this.deletable = deletable;
+
+    }
+
+    public String toString() {
+        return fileType;
+    }
+
+    public String getFilePath() {
+        return filePath;
+    }
+
+    public String getFileDescription() {
+        return fileDescription;
+    }
+
+    public String getLogCategory() {
+        return logCategory;
+    }
+
+    public String getFileType() {
+        return getFileType();
+    }
+
+    public boolean isDeletable() {
+        return deletable;
+    }
+
+    public static DebugLogFileType fromString(String text) {
+        if (text != null) {
+            for (DebugLogFileType item : DebugLogFileType.values()) {
+                if (text.equalsIgnoreCase(item.fileType)) {
+                    return item;
+                }
+            }
+        }
+        return null;
+    }
+
+
+    private static class Constants {
+
+        public static final String SYSTEM = "SYSTEM";
+        public static final String APPLICATION = "APPLICATION";
+        public static final String ROOT_DIR = "/var/log";
+        public static final String BASE_LOG_DIR_APP = "/opt/CSCOcpm/logs";
+    }
+
+
+}
