@@ -33,7 +33,7 @@ public class BST {
         }
         while (!q.isEmpty()){
             Node current = q.remove();
-            System.out.println(current.data);
+            System.out.print(current.data+" ");
             if(current.left!=null){
                 q.add(current.left);
             }
