@@ -57,6 +57,9 @@ public class Problems {
         System.out.println(kangaroo(0,3,4,2));
 
         oddEvenStringChar("helloworld");
+
+
+        findMaxHit(Arrays.asList(1,4,4,4,5,3));
     }
 
     // Complete the sockMerchant function below.
@@ -376,4 +379,34 @@ public class Problems {
         System.out.println(even);
     }
 
+    private static void findMaxHit(List<Integer> arr){
+        SortedMap<Integer,Integer> op = new TreeMap<>();
+        for(int i : arr){
+            if(op.containsKey(i)){
+                int val = op.get(i);
+                val++;
+                op.put(i,val);
+            }else{
+                op.put(i,1);
+            }
+        }
+
+        Set<Map.Entry<Integer, Integer>> entries = op.entrySet();
+        int maxHitValue=0;
+        int maxKey=0;
+        for(Map.Entry<Integer,Integer> entry: entries){
+            //System.out.println(entry.getKey());
+            //System.out.println(entry.getValue());
+            if(entry.getValue()>maxHitValue){
+                maxHitValue=entry.getValue();
+                maxKey=entry.getKey();
+            }
+        }
+        System.out.println(maxHitValue);
+        System.out.println(maxKey);
+        System.out.println(op);
+
+        // or elegant solution
+        System.out.println(Collections.max(op.entrySet(),Map.Entry.comparingByValue()).getKey());
+    }
 }

@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class BST {
     static class Node{
-        private int data;
+        private final int data;
         Node left,right=null;
         Node(int data){
             this.data=data;
@@ -16,11 +16,30 @@ public class BST {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Node root=null;
+        System.out.println("no. of elements?");
         int noOfInput = scanner.nextInt();
+        int total = noOfInput;
         while(noOfInput-->0){
+            System.out.printf("element-%d ?\n",(total-noOfInput));
             root=insertData(scanner.nextInt(),root);
         }
+        System.out.println("height : "+printBSTHeight(root));
         printBSTLevelOrder(root);
+    }
+
+    private static int printBSTHeight(Node root) {
+        if(root==null){
+            return 0;
+        }
+        int leftTree=0;
+        int rightTree=0;
+        if(root.left!=null){
+            leftTree = printBSTHeight(root.left)+1;
+        }
+        if(root.right!=null){
+            rightTree = printBSTHeight(root.right)+1;
+        }
+        return Math.max(leftTree, rightTree);
     }
 
     private static void printBSTLevelOrder(Node root) {
@@ -31,6 +50,7 @@ public class BST {
         }else{
             q.add(root);
         }
+        System.out.println("Level Order (or Breadth first search) of BST :");
         while (!q.isEmpty()){
             Node current = q.remove();
             System.out.print(current.data+" ");
