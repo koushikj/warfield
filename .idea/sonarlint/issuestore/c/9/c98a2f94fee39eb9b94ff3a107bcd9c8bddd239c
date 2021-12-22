@@ -1,0 +1,44 @@
+
+3
+java:S1643·"Use a StringBuilder instead.(‹áÇ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Æô÷²
+v
+java:S1149¬"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¢µ¥ù
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(¶ÿêî
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(‡¯‰™
+m
+java:S3776."RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(¸¶İÁşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(òéû©ÿÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(‹‹É·şÿÿÿÿ
+I
+java:S1144¬"2Remove this unused private "executeScript" method.(¢µ¥ù
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(Ëí«”
+U
+java:S1068":Remove this unused "LOG_LIST_SCRIPT_OUTPUT" private field.(¾ÅƒŞşÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ş‚î–ÿÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÿÖ¹î
+E
+java:S1172'"/Remove this unused method parameter "fileList".(¡´ê
+u
+java:S1149'"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¡´ê
+T	java:S106¯"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+N	java:S106x"9Replace this use of System.out or System.err by a logger.(¨¨ø
+n
+java:S1192p"LDefine a constant instead of duplicating this literal "APPLICATION" 3 times.(¥€¨—üÿÿÿÿ8ÛØÅ÷¥.
+F
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÛØÅ÷¥.
+H
+java:S1604"(Make this anonymous inner class a lambda(©¾ßúÿÿÿÿ8ÛØÅ÷¥.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(øŒ¼Æ8ÛØÅ÷¥.
+\
+java:S1854"<Remove this useless assignment to local variable "category".(÷¾Ğüÿÿÿÿ8ÛØÅ÷¥.
+U	java:S106y"9Replace this use of System.out or System.err by a logger.(ÊËÂ´8ÛØÅ÷¥.
+v
+java:S2293|"YReplace the type specification in this constructor call with the diamond operator ("<>").(î¸ã¤8ÛØÅ÷¥.
+w
+java:S2293‡"YReplace the type specification in this constructor call with the diamond operator ("<>").(É°ì±8ÛØÅ÷¥.
+M
+java:S1481"-Remove this unused "category" local variable.(÷¾Ğüÿÿÿÿ8ÛØÅ÷¥.
+]	java:S125I"<This block of commented-out lines of code should be removed.(…âíÉıÿÿÿÿ8ÛØÅ÷¥.

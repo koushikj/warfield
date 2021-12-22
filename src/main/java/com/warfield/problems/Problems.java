@@ -60,6 +60,8 @@ public class Problems {
 
 
         findMaxHit(Arrays.asList(1,4,4,4,5,3));
+
+        System.out.println(Arrays.toString(new byte[1]));
     }
 
     // Complete the sockMerchant function below.
