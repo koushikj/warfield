@@ -1,0 +1,1 @@
+python solution: https://github.com/Peter-AK/Bringing-a-gun-to-a-guard-fight/blob/master/bringing_a_gun_to_a_guard_fight.py
