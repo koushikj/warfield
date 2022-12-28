@@ -35,14 +35,15 @@ Total time taken using dynamic programming :2ms
         System.out.println("Find fibonacci for :");
         BigInteger input = scanner.nextBigInteger();
         long startTime=System.currentTimeMillis();
+        System.out.print("1\t1\t");
         BigInteger result=findFibonacci(input,memoize);
         long endTime=System.currentTimeMillis();
-        System.out.println(MessageFormat.format("{0}th Fibonacci series is :{1}",input,result));
+        System.out.println(MessageFormat.format("\n{0}th Fibonacci series is :{1}",input,result));
         //System.out.println(memoize.values().toString());
         System.out.println(MessageFormat.format("Total time taken using dynamic programming :{0}ms",endTime-startTime));
 
         System.out.println("input for bottom up :");
-        System.out.println("Result ::"+botttomUpApproach(scanner.nextInt()));
+        System.out.println("\nResult ::"+botttomUpApproach(scanner.nextInt()));
     }
 
     private static BigInteger findFibonacci(BigInteger input, Map<BigInteger, BigInteger> memoize) {
@@ -50,6 +51,7 @@ Total time taken using dynamic programming :2ms
             return memoize.get(input);
         }
         BigInteger res = findFibonacci(input.subtract(BigInteger.ONE),memoize).add(findFibonacci(input.subtract(BigInteger.valueOf(2)),memoize));
+        System.out.print(res+"\t");
         memoize.put(input,res);
         return res;
     }
@@ -59,8 +61,10 @@ Total time taken using dynamic programming :2ms
         fibSeries[0] = 0L;
         fibSeries[1] = 1L;
         fibSeries[2] = 1L;
+        System.out.print(fibSeries[0]+"\t"+fibSeries[1]+"\t");
         for (int i=3;i<input+1;i++){
             fibSeries[i] = fibSeries[i-1]+fibSeries[i-2];
+            System.out.print(fibSeries[i]+"\t");
         }
         return fibSeries[input];
 
