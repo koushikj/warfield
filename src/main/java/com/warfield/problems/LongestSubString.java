@@ -11,6 +11,7 @@ public class LongestSubString {
         longestSubString.lengthOfLongestSubstring("pwwkew");
         longestSubString.lengthOfLongestSubstring("aab");
         longestSubString.lengthOfLongestSubstringMethod2("dvdf");
+        longestSubString.lengthOfLongestSubstringMethod2("vvdvvf");
     }
 
     private int lengthOfLongestSubstringMethod2(String s) {
