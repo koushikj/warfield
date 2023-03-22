@@ -15,13 +15,13 @@ public class StringSplitBasedOnDoubleQuotes
         char[] charArray = stringWithQuote.toCharArray();
         List<String> outputList = new ArrayList<>();
         StringBuilder substring = new StringBuilder();
-        boolean doubleQuoteFlag=false;
+        boolean splitByCharFlag=false;
         for (char c:charArray){
             if (c == splitByChar){
-                doubleQuoteFlag= !doubleQuoteFlag;
+                splitByCharFlag= !splitByCharFlag;
                 continue;
             }
-            if (c == ' ' && !doubleQuoteFlag){
+            if (c == ' ' && !splitByCharFlag){
                 outputList.add(substring.toString());
                 substring = new StringBuilder();
             }else{
